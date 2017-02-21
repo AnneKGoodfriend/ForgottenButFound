@@ -11,15 +11,16 @@ h1 {
 	color: #f25a4f;
 }
 
-.animal {
+
+/*.url {
 	min-height: 550px;
+}*/
+
+.url {
+	width: 200px;
 }
 
-.animal img {
-	width: 100%;
-}
-
-#animal-holder{
+#found-holder{
 	margin-top: 75px;
 }
 
