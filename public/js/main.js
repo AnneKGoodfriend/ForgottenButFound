@@ -199,7 +199,7 @@ function renderFound(found){
 
 	// loop through all the animals and add them in the animal-holder div
 	for(var i=0;i<found.length;i++){
-		var htmlToAdd = '<div class="col-md-4 foundobject">'+
+		var htmlToAdd = '<div class="col-md-4 foundobject" id="individualpost">'+
 			'<img class="url" src="'+found[i].url+'"> </br> </br>'+
 				// '<li>Location: <span class="location">'+found[i].location.date+'</span></li>'+
 				'<span class="story">'+found[i].story+'</span>'+
